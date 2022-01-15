@@ -70,7 +70,8 @@ const HomePage = () => {
         Astronomy Picture of the Day&emsp;
         <button className="btn btn-primary" onClick={getImages}>
           Refresh list
-        </button>
+        </button><br />
+        <a href="https://github.com/leokishan/NasaImageAPI">View source code</a>
       </div>
       <div className="card-container">
         {loading
